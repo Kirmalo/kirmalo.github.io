@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060d18"/>
+      <stop offset="100%" style="stop-color:#122040"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a7a3a"/>
+      <stop offset="100%" style="stop-color:#0e2a14"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="300" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#e8b84b" letter-spacing="1">Leafy Word Connect</text>
+  <line x1="100" y1="58" x2="500" y2="58" stroke="#2a7a3a" stroke-width="1"/>
+
+  <!-- Letter tiles row 1: W O R D -->
+  <rect x="108" y="80" width="72" height="72" rx="10" fill="url(#tile)" stroke="#e8b84b" stroke-width="2"/>
+  <text x="144" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#ffffff">W</text>
+
+  <rect x="192" y="80" width="72" height="72" rx="10" fill="url(#tile)" stroke="#e8b84b" stroke-width="2"/>
+  <text x="228" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#ffffff">O</text>
+
+  <rect x="276" y="80" width="72" height="72" rx="10" fill="url(#tile)" stroke="#e8b84b" stroke-width="2"/>
+  <text x="312" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#ffffff">R</text>
+
+  <rect x="360" y="80" width="72" height="72" rx="10" fill="url(#tile)" stroke="#e8b84b" stroke-width="2"/>
+  <text x="396" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#ffffff">D</text>
+
+  <rect x="444" y="80" width="72" height="72" rx="10" fill="#0a1628" stroke="#1a2d50" stroke-width="1"/>
+  <text x="480" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#1a2d50">S</text>
+
+  <!-- Letter tiles row 2 (dimmed) -->
+  <rect x="108" y="164" width="72" height="72" rx="10" fill="#0a1628" stroke="#1a2d50" stroke-width="1"/>
+  <text x="144" y="217" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#1a2d50">G</text>
+
+  <rect x="192" y="164" width="72" height="72" rx="10" fill="#0a1628" stroke="#1a2d50" stroke-width="1"/>
+  <text x="228" y="217" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#1a2d50">A</text>
+
+  <rect x="276" y="164" width="72" height="72" rx="10" fill="#0a1628" stroke="#1a2d50" stroke-width="1"/>
+  <text x="312" y="217" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#1a2d50">M</text>
+
+  <rect x="360" y="164" width="72" height="72" rx="10" fill="#0a1628" stroke="#1a2d50" stroke-width="1"/>
+  <text x="396" y="217" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#1a2d50">E</text>
+
+  <rect x="444" y="164" width="72" height="72" rx="10" fill="#0a1628" stroke="#1a2d50" stroke-width="1"/>
+  <text x="480" y="217" text-anchor="middle" font-family="Georgia,serif" font-size="40" font-weight="bold" fill="#1a2d50">S</text>
+
+  <!-- Tags -->
+  <rect x="108" y="258" width="90" height="26" rx="13" fill="#2a7a3a"/>
+  <text x="153" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#ffffff">100 Levels</text>
+
+  <rect x="208" y="258" width="90" height="26" rx="13" fill="#2a1a4a"/>
+  <text x="253" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#ffffff">Daily Puzzle</text>
+
+  <rect x="308" y="258" width="80" height="26" rx="13" fill="#1a5a5a"/>
+  <text x="348" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#ffffff">Blitz Mode</text>
+
+  <rect x="398" y="258" width="100" height="26" rx="13" fill="#7a1020"/>
+  <text x="448" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#ffffff">Android App</text>
+
+  <!-- Play button -->
+  <rect x="200" y="306" width="200" height="44" rx="22" fill="#e8b84b"/>
+  <text x="300" y="334" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#060d18">Play Now</text>
+
+  <!-- Subtle bottom line -->
+  <line x1="100" y1="368" x2="500" y2="368" stroke="#1a2d50" stroke-width="1"/>
+  <text x="300" y="388" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#3a5a3a">kirmalo.github.io/leafy-word-connect</text>
+</svg>
